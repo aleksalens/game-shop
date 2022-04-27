@@ -15,7 +15,7 @@ namespace gameshop
         public Proizvod(string name, int uPC, double price)
         {
             this.name = name;
-            UPC = uPC;
+            this.UPC = uPC;
             this.price = price;
         }
 
@@ -25,8 +25,5 @@ namespace gameshop
         public void SetName(string name) { this.name = name; }
         public void SetUPC(int UPC) { this.UPC = UPC; }
         public void SetPrice(double price) { this.price = price; }
-
-
-
     }
 }
